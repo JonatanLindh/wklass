@@ -29,7 +29,7 @@
   "author": "Jonatan Lindh",
   "web_accessible_resources": [
     {
-      "resources": ["Images/*"],
+      "resources": ["favicon.ico", "Images/*"],
       "matches": ["*://*.vklass.se/*"]
     }
   ]
