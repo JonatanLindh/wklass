@@ -1,3 +1,4 @@
 node_modules
-.prettierrc
-wklass.png
+/release.ps1
+/wklass.png
+/.prettierrc
