@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.oldComingListElement {
+  list-style-type: none;
+}
+
+.actions {
+  position: absolute;
+  top: 185px;
+  right: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0 !important;
+  margin-top: 0;
+  white-space: nowrap;
+  font-size: 100%;
+  font-size: 1.1em !important;
+  font-weight: lighter !important;
+  font-family: "Poppins", "sans-serif";
+}
+
+.actions .a *,
+.actions .kurs * {
+  background-image: none !important;
+  text-indent: 3px !important;
+}
+
+.actions li * {
+  width: 135px !important;
+  line-height: 39px;
+  float: left;
+  margin-right: 10px !important;
+  background-color: white;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-align: center !important;
+  border-radius: 10px !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.metainfo {
+  background-color: #4073bc !important;
+  line-height: 30px;
+  padding-left: 11px;
+  color: #fff;
+  margin-top: 50px;
+  margin-right: 34px !important;
+  margin-bottom: 1px;
+  border-radius: 5px;
+  font-size: 1.2em !important;
+  font-family: "Poppins", "sans-serif" !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.list {
+  border-collapse: collapse;
+  margin: 25px, 0;
+  margin-top: 3px !important;
+  font-size: 1.1em !important;
+  width: 540px !important;
+  height: 500px !important;
+  font-family: "Poppins", "sans-serif";
+  margin-right: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.list thead tr {
+  background-color: #009879;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.kurs {
+  padding: 8px 15px;
+}
+
+.list tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.list tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.list tr:nth-of-type(odd):not(thead tr) {
+  background-color: #ffffff;
+}
+
+.list tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.antal-level2 {
+  text-align: left !important;
+}
+
+.list th.antal {
+  text-align: left !important;
+  width: auto !important;
+}

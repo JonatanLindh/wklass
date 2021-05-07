@@ -1,0 +1,36 @@
+{
+  "name": "wklass",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background-wrapper.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.vklass.se/*"],
+      "js": ["allPages/js/content.js"],
+      "css": ["allPages/css/leftmenu.css", "allPages/css/topmenu.css"]
+    },
+    {
+      "matches": ["*://*.vklass.se/user.aspx?id=*"],
+      "js": ["profilePage/js/profile.js"]
+    },
+    {
+      "matches": ["*://*.vklass.se/courselist.aspx"],
+      "js": ["courseList/js/courseList.js"],
+      "css": ["courseList/css/courseList.css"]
+    },
+    {
+      "matches": ["*://*.vklass.se/Latest.aspx"],
+      "js": ["latestPage/js/latestPage.js"],
+      "css": ["latestPage/css/latestPage.css"]
+    }
+  ],
+  "author": "Jonatan Lindh",
+  "web_accessible_resources": [
+    {
+      "resources": ["Images/*"],
+      "matches": ["*://*.vklass.se/*"]
+    }
+  ]
+}

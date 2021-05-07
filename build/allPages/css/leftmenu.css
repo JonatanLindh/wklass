@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+ul.leftmenu {
+  font-size: 115%;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 0;
+  line-height: 50px;
+  background-color: white;
+}
+
+div#ctl00_navbar.nav ul.leftmenu .dagar * {
+  background-image: url(https://clipart.info/images/ccovers/1495818555cartoon-fire-flames-emoji-png-transparent.png);
+  background-size: 35px 35px;
+  background-position: 25px 7px;
+  cursor: pointer;
+}
+
+.nav ul.leftmenu li {
+  background-color: #f1f1f1 !important;
+}
+
+.nav ul.leftmenu li:not(.dagar) * {
+  background-image: none;
+  padding-left: 85px !important;
+  position: relative !important;
+}
+
+.nav ul.leftmenu li a:before {
+  font-size: 35px;
+  margin-right: 10px;
+  left: 23px;
+  position: absolute;
+  top: 0;
+}
+
+.nav ul.leftmenu li.kalender a:before {
+  font-family: "Material Icons";
+  content: "today";
+}
+
+.nav ul.leftmenu li.minakurser a:before {
+  font-family: "Material Icons";
+  content: "history_edu";
+}
+
+.nav ul.leftmenu li.klass a:before {
+  font-family: "Material Icons";
+  content: "groups";
+}
+
+.nav ul.leftmenu li.minafiler a:before {
+  font-family: "Material Icons";
+  content: "folder_open";
+}
+
+.nav ul.leftmenu li.skola a:before {
+  font-family: "Material Icons";
+  content: "school";
+}
+
+.nav ul.leftmenu li.tools a:before {
+  font-family: "Material Icons";
+  content: "build";
+}
+
+.nav ul.leftmenu li.Learning_tools a:before {
+  font-family: "Material Icons";
+  content: "list_alt";
+}
+
+.nav ul.leftmenu li.Teams a:before {
+  font-family: "Material Icons";
+  content: "people";
+}
+
+.nav ul.leftmenu li.help a:before {
+  font-family: "Material Icons";
+  content: "help_center";
+}
+
+.nav ul.leftmenu li.dexter a:before {
+  font-family: "Material Icons";
+  content: "drive_file_rename_outline";
+}
+
+.nav ul.leftmenu li.skolon a:before {
+  font-family: "Material Icons";
+  content: "offline_share";
+}
