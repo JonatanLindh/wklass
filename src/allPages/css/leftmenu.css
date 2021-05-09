@@ -1,17 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-ul.leftmenu {
-  font-size: 115%;
-  list-style-type: none;
-  margin-top: 10px;
-  margin-bottom: 0;
-  margin-left: 4px;
-  margin-right: 4px;
-  padding-left: 0;
-  line-height: 50px;
-  background-color: white;
-}
-
 div#ctl00_navbar.nav ul.leftmenu .dagar * {
   background-image: url(https://clipart.info/images/ccovers/1495818555cartoon-fire-flames-emoji-png-transparent.png);
   background-size: 35px 35px;
@@ -19,8 +5,8 @@ div#ctl00_navbar.nav ul.leftmenu .dagar * {
   cursor: pointer;
 }
 
-.nav ul.leftmenu li {
-  background-color: #f1f1f1 !important;
+.nav ul.leftmenu li * {
+  color: black !important;
 }
 
 .nav ul.leftmenu li:not(.dagar) * {
@@ -35,6 +21,7 @@ div#ctl00_navbar.nav ul.leftmenu .dagar * {
   left: 23px;
   position: absolute;
   top: 0;
+  color: black !important;
 }
 
 .nav ul.leftmenu li.kalender a:before {

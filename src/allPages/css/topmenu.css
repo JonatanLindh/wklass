@@ -1,0 +1,50 @@
+ul.topmenu li * {
+  background-image: none;
+  position: relative !important;
+  background-image: none !important;
+  font-weight: normal !important;
+}
+
+ul.topmenu li a:before {
+  font-size: 38px;
+  margin-right: 10px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-weight: lighter !important;
+}
+
+ul.topmenu li.topmenu-myhome a:before {
+  font-family: "Material Icons";
+  content: "home";
+}
+
+ul.topmenu li.topmenu-messages a:before {
+  font-family: "Material Icons";
+  content: "chat";
+  left: 37px;
+}
+
+ul.topmenu li.topmenu-relations a:before {
+  font-family: "Material Icons";
+  content: "group";
+  left: 13px;
+}
+
+ul.topmenu li.topmenu-feed a:before {
+  font-family: "Material Icons";
+  content: "notifications_active";
+  left: 19px;
+}
+
+ul.topmenu li.topmenu-settings a:before {
+  font-family: "Material Icons";
+  content: "manage_accounts";
+  left: 22px;
+}
+
+ul.topmenu li.topmenu-logout a:before {
+  font-family: "Material Icons";
+  content: "logout";
+  left: 19px;
+}

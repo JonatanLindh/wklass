@@ -9,11 +9,12 @@
     {
       "matches": ["*://*.vklass.se/*"],
       "js": ["allPages/js/content.js"],
-      "css": ["allPages/css/leftmenu.css", "allPages/css/topmenu.css"]
+      "css": ["allPages/css/leftmenu.css", "allPages/css/topmenu.css", "allPages/css/all.css"]
     },
     {
       "matches": ["*://*.vklass.se/user.aspx?id=*"],
-      "js": ["profilePage/js/profile.js"]
+      "js": ["profilePage/js/profile.js"],
+      "css": ["profilePage/css/profile.css"]
     },
     {
       "matches": ["*://*.vklass.se/courselist.aspx"],
@@ -24,6 +25,11 @@
       "matches": ["*://*.vklass.se/Latest.aspx"],
       "js": ["latestPage/js/latestPage.js"],
       "css": ["latestPage/css/latestPage.css"]
+    },
+    {
+      "matches": ["*://*.vklass.se/default.aspx"],
+      "js": ["startPage/js/startPage.js", "normalPage/js/normalPage.js"],
+      "css": ["startPage/css/startLeft.css", "startPage/css/startRight.css", "normalPage/css/normalPage.css"]
     }
   ],
   "author": "Jonatan Lindh",

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 /* fallback */
 @font-face {
   font-family: "Material Icons";
@@ -24,53 +26,4 @@
   -moz-font-feature-settings: "liga" 1, "kern" 1, "case" 1; /* Firefox 15.0 onwards explicitly set feature values */
   font-feature-settings: "liga", "kern", "case"; /* No variation */
   -webkit-font-smoothing: antialiased;
-}
-
-ul.topmenu li * {
-  background-image: none;
-  position: relative !important;
-  background-image: none !important;
-}
-
-ul.topmenu li a:before {
-  font-size: 38px;
-  margin-right: 10px;
-  left: 4px;
-  position: absolute;
-  top: 0;
-}
-
-ul.topmenu li.topmenu-myhome a:before {
-  font-family: "Material Icons";
-  content: "home";
-}
-
-ul.topmenu li.topmenu-messages a:before {
-  font-family: "Material Icons";
-  content: "chat";
-  left: 35px;
-}
-
-ul.topmenu li.topmenu-relations a:before {
-  font-family: "Material Icons";
-  content: "group";
-  left: 13px;
-}
-
-ul.topmenu li.topmenu-feed a:before {
-  font-family: "Material Icons";
-  content: "notifications";
-  left: 19px;
-}
-
-ul.topmenu li.topmenu-logout a:before {
-  font-family: "Material Icons";
-  content: "logout";
-  left: 17px;
-}
-
-ul.topmenu li.topmenu-settings a:before {
-  font-family: "Material Icons";
-  content: "manage_accounts";
-  left: 22px;
 }
