@@ -1,0 +1,95 @@
+#ctl00_ContentPlaceHolder2_articleContent {
+  font-family: "Poppins", "sans-serif" !important; }
+
+.profil-actions .top-blogg * {
+  background-image: none !important;
+  text-indent: 12px !important;
+  border-radius: 15px;
+  margin-right: 20px !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 115px !important; }
+
+.profil-actions .top-blogg > a:before {
+  font-family: "Material Icons";
+  content: "dynamic_feed";
+  font-size: 22px;
+  margin-right: 5px;
+  vertical-align: bottom !important;
+  font-weight: normal !important; }
+
+.metainfo {
+  background-color: #4073bc !important;
+  line-height: 30px;
+  padding-left: 16px;
+  color: #fff;
+  margin-top: 50px;
+  margin-right: 4px;
+  margin-bottom: 0px !important;
+  font-size: 11px;
+  border-radius: 5px 5px 0 0 !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+
+.start-top {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  width: 569px;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px !important;
+  min-height: 390px;
+  _height: 400px;
+  overflow: visible; }
+
+.newReleaseStartpage a {
+  background-image: none !important;
+  background-repeat: no-repeat;
+  margin-left: -20px;
+  padding-left: 20px; }
+
+.start-left p.newReleaseStartpage {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #8dc740;
+  margin-bottom: -8px;
+  background-color: #d2f0aa;
+  border-radius: 5px !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+
+.start-left {
+  margin: 0;
+  margin-right: 5px !important;
+  width: 358px !important;
+  padding: 0px;
+  padding-right: 4px !important;
+  padding-left: 4px !important;
+  min-height: 617px;
+  _height: 480px;
+  float: left;
+  background-color: #fff;
+  border-right: 2px solid #009879 !important;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */ }
+
+.start-left .left-topic {
+  margin: 0px 0px 2px;
+  padding: 0px 0px 0px 10px;
+  background-color: #009879 !important;
+  line-height: 26px;
+  font-size: 110%;
+  font-family: "Trebuchet MS", Verdana;
+  font-weight: bold;
+  color: white !important;
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+  border-bottom: none !important;
+  display: block;
+  border-radius: 5px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }
+
+.newsPost {
+  margin: 10px;
+  border: 1px solid #009879 !important;
+  border-radius: 5px;
+  background-color: #fff !important;
+  overflow: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); }

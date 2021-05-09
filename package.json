@@ -13,7 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build && node-sass src/ -o wklass/",
-    "release": "tsc --build && powershell Compress-Archive wklass wklass.zip -Force && @powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./release.ps1"
+    "SASS-Watch": "tsc --build && node-sass -w src/ -o wklass/",
+    "release": "tsc --build && node-sass src/ -o wklass/ && powershell Compress-Archive wklass wklass.zip -Force && @powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./release.ps1"
   },
   "keywords": [],
   "author": "Jonatan Lindh",
