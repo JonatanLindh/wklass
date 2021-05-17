@@ -2,16 +2,19 @@ body {
   display: block;
   margin: 0 !important; }
 
+html {
+  background-color: white !important; }
+
 ul.topmenu li * {
   color: white !important; }
   ul.topmenu li * ::before {
     color: white !important; }
 
 .inner > h1 {
-  width: 100% !important;
-  margin-left: 0 !important; }
+  display: none !important; }
 
 #myToolsBox {
+  display: block !important;
   width: 220px !important;
   bottom: 0 !important;
   background-color: white !important;
@@ -32,7 +35,8 @@ ul.topmenu li * {
   margin: 0px auto;
   background-color: none !important;
   background-image: none !important;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-top: 100px !important; }
 
 .nav {
   position: fixed !important;
@@ -73,7 +77,7 @@ ul.topmenu li * {
     left: 200px;
     height: 75px !important;
     z-index: 999;
-    width: 520px !important;
+    width: calc(100vw - 201px) !important;
     background-color: transparent !important; }
     .nav .scoreboard a {
       padding-top: 42px !important; }
@@ -93,12 +97,11 @@ ul.topmenu li * {
         padding-top: 3px !important; }
     .nav .scoreboard .topmenu li.topmenu-settings {
       text-align: right !important;
-      border-left: 3px solid white;
       padding-left: 12px !important; }
     .nav .scoreboard .topmenu li.topmenu-logout {
       text-align: right !important;
-      margin-right: 30px !important; }
-    .nav .scoreboard .topmenu li.topmenu-logout > a::after {
+      margin-right: 50px !important; }
+    .nav .scoreboard .topmenu li.topmenu-feed > a::after {
       font-family: "Material Icons";
       content: "explore";
       position: absolute !important;
@@ -110,12 +113,12 @@ ul.topmenu li * {
       color: white;
       pointer-events: none !important;
       text-decoration: none; }
-    .nav .scoreboard .topmenu li.topmenu-settings > a::after {
+    .nav .scoreboard .topmenu li.topmenu-relations > a::after {
       position: absolute !important;
-      margin-left: 165px !important;
+      margin-left: 155px !important;
       font-size: 35px !important;
       top: 0px !important;
-      padding: 10px 0 10px 30px !important;
+      padding: 10px 0 10px 55px !important;
       pointer-events: none !important;
       color: white;
       text-decoration: none; }
@@ -160,13 +163,6 @@ ul.leftmenu {
   cursor: pointer;
   display: none !important; }
 
-.article {
-  background-color: white !important;
-  background-image: none !important;
-  margin-left: 200px;
-  margin-right: 37px;
-  padding-bottom: 25px; }
-
 .inner {
   background-image: none !important; }
   .inner h1 {
@@ -175,3 +171,26 @@ ul.leftmenu {
     position: relative !important; }
     .inner h1 span {
       display: none !important; }
+
+@media only screen and (min-width: 1001px) {
+  .article {
+    background-color: white !important;
+    background-image: none !important;
+    margin-left: 150px !important;
+    margin-right: 230px !important;
+    padding: 0 !important; } }
+
+@media only screen and (max-width: 1000px) {
+  #ctl00_navbar {
+    display: none !important; }
+  .article {
+    background-color: white !important;
+    background-image: none !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    padding: 0 !important;
+    position: absolute !important; } }
+
+@media only screen and (max-width: 1200px) {
+  #myToolsBox {
+    display: none !important; } }

@@ -2,3 +2,4 @@ node_modules
 /release.ps1
 /wklass.png
 /.prettierrc
+/.vscode

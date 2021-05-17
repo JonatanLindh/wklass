@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "postcss-import": "^14.0.1",
     "typescript": "^4.2.4"
   },
   "devDependencies": {
     "@types/chrome": "0.0.137",
+    "@types/jquery": "^3.5.5",
     "sass": "^1.32.12"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build && node-sass src/ -o wklass/",
     "SASS-Watch": "tsc --build && node-sass -w src/ -o wklass/",
     "release": "tsc --build && node-sass src/ -o wklass/ && powershell Compress-Archive wklass wklass.zip -Force && @powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./release.ps1"
