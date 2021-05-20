@@ -5,11 +5,14 @@ let fixFeedEvent = (feedElement) => {
     for (let i = 1; i < feedTextList.length; i++) {
         feedTextList[i] = "<a" + feedTextList[i];
     }
+    if (feedTextList.length <= 3)
+        return;
     let inCourse = feedTextList[feedTextList.length - 2].substr(feedTextList[feedTextList.length - 2].indexOf("</a>") + 4);
     let attachList = [];
     for (let i = 2; i < feedTextList.length - 2; i++) {
         attachList.push(`<li class="attachment">${feedTextList[i]}</li>`);
     }
+    console.log("Hej");
     attachList.push(`<li class="attachment">${feedTextList[feedTextList.length - 2].substr(0, feedTextList[feedTextList.length - 2].indexOf("</a>") + 4)}</li>`);
     let attachments = attachList.join("");
     let newInner = `
@@ -22,5 +25,8 @@ let fixFeedEvent = (feedElement) => {
 };
 let feedItems = document.getElementsByClassName("profile-feed");
 for (let i = 0; i < feedItems.length; i++) {
-    fixFeedEvent(feedItems[i]);
+    try {
+        fixFeedEvent(feedItems[i]);
+    }
+    catch (error) { }
 }

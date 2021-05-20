@@ -6,6 +6,8 @@ let fixFeedEvent = (feedElement: HTMLDivElement) => {
     feedTextList[i] = "<a" + feedTextList[i];
   }
 
+  if (feedTextList.length <= 3) return;
+
   let inCourse = feedTextList[feedTextList.length - 2].substr(
     feedTextList[feedTextList.length - 2].indexOf("</a>") + 4
   );
@@ -14,6 +16,8 @@ let fixFeedEvent = (feedElement: HTMLDivElement) => {
   for (let i = 2; i < feedTextList.length - 2; i++) {
     attachList.push(`<li class="attachment">${feedTextList[i]}</li>`);
   }
+
+  console.log("Hej");
 
   attachList.push(
     `<li class="attachment">${feedTextList[feedTextList.length - 2].substr(
@@ -33,5 +37,7 @@ let fixFeedEvent = (feedElement: HTMLDivElement) => {
 
 let feedItems = document.getElementsByClassName("profile-feed");
 for (let i = 0; i < feedItems.length; i++) {
-  fixFeedEvent(feedItems[i] as HTMLDivElement);
+  try {
+    fixFeedEvent(feedItems[i] as HTMLDivElement);
+  } catch (error) {}
 }

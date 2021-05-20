@@ -47,7 +47,6 @@
   padding-right: 4px !important;
   padding-left: 4px !important;
   min-height: 617px;
-  _height: 480px;
   float: left !important;
   background-color: #fff;
   border-right: none !important;
@@ -60,9 +59,26 @@
   margin: 10px;
   // border: 1px solid #009879 !important;
   border: none !important;
-  border-radius: 5px;
+  // border-bottom: 3px solid gold !important;
+  border-radius: 12px !important;
   background-color: #fff !important;
   overflow: auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 16px 0 rgba(42, 28, 28, 0.3);
   position: relative !important;
+  overflow: hidden !important;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #3f51b5;
+  }
+
+  a > p {
+    img {
+      display: none;
+    }
+    a {
+      font-family: "Material Icons";
+      text-decoration: none !important;
+      font-size: 20px !important;
+      font-weight: lighter !important;
+    }
+  }
 }

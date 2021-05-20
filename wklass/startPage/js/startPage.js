@@ -1,3 +1,12 @@
 "use strict";
-// let welcome = document.querySelector("#ctl00_ContentPlaceHolder2_articleContent > h1 > span");
-// if (welcome) welcome.innerHTML = "Välkommen till wklass";
+let changePaperclip = () => {
+    let elements = document.querySelectorAll(".newsPost > a > p > img");
+    elements.forEach((element) => {
+        if (!element)
+            return;
+        let icon = document.createElement("a");
+        icon.innerHTML = "attachment";
+        element.parentElement?.appendChild(icon);
+    });
+};
+changePaperclip();

@@ -32,9 +32,51 @@ ul.topmenu li * {
   p:first-of-type {
     display: none !important;
   }
-
-  .exam {
+  ul {
+    li {
+      padding-left: 3px !important;
+      a {
+        text-decoration: none !important;
+      }
+    }
+  }
+  li {
     background-image: none !important;
+    ::before {
+      font-family: "Material Icons";
+      font-size: 20px !important;
+      padding-right: 4px !important;
+      vertical-align: -30% !important;
+    }
+  }
+
+  .exam:nth-child(1) {
+    ::before {
+      content: "apps";
+    }
+  }
+
+  .exam:nth-child(2) {
+    ::before {
+      content: "assignment_turned_in";
+    }
+  }
+
+  .utbm {
+    ::before {
+      content: "inventory_2";
+    }
+  }
+
+  .quickLink {
+    padding: 0 0px 2px 0px !important;
+    ::before {
+      content: "link";
+    }
+  }
+
+  #EditQuickLinks {
+    margin-right: 15px !important;
   }
 }
 

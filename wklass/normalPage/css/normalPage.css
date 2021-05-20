@@ -25,8 +25,29 @@ ul.topmenu li * {
   border-radius: 10px 0 0 10px !important; }
   #myToolsBox p:first-of-type {
     display: none !important; }
-  #myToolsBox .exam {
+  #myToolsBox ul li {
+    padding-left: 3px !important; }
+    #myToolsBox ul li a {
+      text-decoration: none !important; }
+  #myToolsBox li {
     background-image: none !important; }
+    #myToolsBox li ::before {
+      font-family: "Material Icons";
+      font-size: 20px !important;
+      padding-right: 4px !important;
+      vertical-align: -30% !important; }
+  #myToolsBox .exam:nth-child(1) ::before {
+    content: "apps"; }
+  #myToolsBox .exam:nth-child(2) ::before {
+    content: "assignment_turned_in"; }
+  #myToolsBox .utbm ::before {
+    content: "inventory_2"; }
+  #myToolsBox .quickLink {
+    padding: 0 0px 2px 0px !important; }
+    #myToolsBox .quickLink ::before {
+      content: "link"; }
+  #myToolsBox #EditQuickLinks {
+    margin-right: 15px !important; }
 
 .bodyContainer {
   width: auto !important;

@@ -10,19 +10,19 @@ ul.topmenu li a:before {
   margin-right: 10px;
   position: absolute;
   top: 0;
-  left: 5px;
   font-weight: lighter !important;
 }
 
 ul.topmenu li.topmenu-myhome a:before {
   font-family: "Material Icons";
   content: "home";
+  left: 5px;
 }
 
 ul.topmenu li.topmenu-messages a:before {
   font-family: "Material Icons";
   content: "chat";
-  left: 37px;
+  left: 30%;
 }
 
 ul.topmenu li.topmenu-relations a:before {
@@ -34,7 +34,7 @@ ul.topmenu li.topmenu-relations a:before {
 ul.topmenu li.topmenu-feed a:before {
   font-family: "Material Icons";
   content: "notifications_active";
-  left: 19px;
+  left: 24%;
 }
 
 ul.topmenu li.topmenu-settings a:before {
