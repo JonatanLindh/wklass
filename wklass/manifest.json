@@ -25,11 +25,6 @@
       "matches": ["*://*.vklass.se/Latest.aspx"],
       "js": ["latestPage/js/latestPage.js"],
       "css": ["latestPage/css/latestPage.css"]
-    },
-    {
-      "matches": ["*://*.vklass.se/default.aspx"],
-      "js": ["startPage/js/startPage.js"],
-      "css": ["startPage/css/startLeft.css", "startPage/css/startRight.css", "startPage/css/startPage.css"]
     }
   ],
   "author": "Jonatan Lindh",
