@@ -30,11 +30,6 @@
       "matches": ["*://*.vklass.se/default.aspx"],
       "js": ["startPage/js/startPage.js"],
       "css": ["startPage/css/startLeft.css", "startPage/css/startRight.css", "startPage/css/startPage.css"]
-    },
-    {
-      "matches": ["*://*.vklass.se/default.aspx"],
-      "js": ["normalPage/js/normalPage.js"],
-      "css": ["normalPage/css/normalPage.css"]
     }
   ],
   "author": "Jonatan Lindh",
