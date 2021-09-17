@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-/* fallback */
+html {
+  font-family: "Poppins" !important; }
+
 @font-face {
   font-family: "Material Icons";
   font-style: normal;

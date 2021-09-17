@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .feed {
   background-color: White;
   min-height: 1000px;
   -height: 1009px;
   width: 559px;
   padding: 5px;
-  font-family: "Poppins", "sans-serif" !important;
   border-radius: 5px;
   margin-top: 3px !important; }
 

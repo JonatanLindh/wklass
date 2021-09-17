@@ -12,7 +12,6 @@ let fixFeedEvent = (feedElement) => {
     for (let i = 2; i < feedTextList.length - 2; i++) {
         attachList.push(`<li class="attachment">${feedTextList[i]}</li>`);
     }
-    console.log("Hej");
     attachList.push(`<li class="attachment">${feedTextList[feedTextList.length - 2].substr(0, feedTextList[feedTextList.length - 2].indexOf("</a>") + 4)}</li>`);
     let attachments = attachList.join("");
     let newInner = `

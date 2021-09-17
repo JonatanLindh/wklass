@@ -17,8 +17,6 @@ let fixFeedEvent = (feedElement: HTMLDivElement) => {
     attachList.push(`<li class="attachment">${feedTextList[i]}</li>`);
   }
 
-  console.log("Hej");
-
   attachList.push(
     `<li class="attachment">${feedTextList[feedTextList.length - 2].substr(
       0,
